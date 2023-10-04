@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("./image/full-shot-fit-woman-training-stu\ \(2\).jpg");
+    background-repeat: none;
+    background-size: cover;
+
+}
+#container{
+    /* border: 3px solid red; */
+    width: 100%;
+    /* max-width: 1200px; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    cursor: zoom-out;
+
+}
+.box{
+    /* border: 1px solid blue; */
+    background-image: linear-gradient(#0e2544, #02244a);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    height: 80vh;
+    margin-right: 100px;
+
+}
+form{
+    /* border: 2px solid aliceblue; */
+    width: 23rem;
+    height: 60vh;
+    border-radius: 10px;
+    filter: blur(.5px);
+}
+
+#form_wrapper{
+    /* border: 2px solid red; */
+    width: 23rem;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.p{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: .7rem auto;
+    /* text-transform: capitalize; */
+
+}
+#p1{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: .7rem;
+    /* text-transform: capitalize; */
+    opacity: 0.6;
+    font-size: 10px;
+
+}
+#p2{
+    color: #fff;
+    display: flex;
+    align-items: cente;
+    justify-content: center;
+    /* text-transform: capitalize; */
+    opacity: 0.5;
+    font-size: 10px;
+}
+
+.label{
+    color: white;
+    margin-top:1rem;
+    opacity: 0.5;
+    font-size: 10px;
+    margin-bottom: 5px;
+
+}
+.input{
+    /* border: 2px solid orange; */
+    margin-bottom: 1rem auto;
+    color: #fff;
+    width: 100%;
+
+}
+input{
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    outline: none;
+    background-color: #203957;
+    /* text-transform: capitalize; */
+    border: none;
+    color: #fff;
+    padding-left: 10px;
+}
+.text p{
+    color: white;
+    display: flex;
+    justify-content: end;
+    margin: 0.8rem auto;
+    /* text-transform: capitalize; */
+    opacity: 0.6;
+    font-size: 10px;
+
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    width: 100%;
+   
+
+}
+.btn button{
+    background-color: #ffa800;
+    border-radius: 4px;
+    width: 100%;
+    height: 30px;
+    border: none;
+}
+.p4 p{
+    color: white;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-transform: capitalize; */
+    opacity: 0.6;
+    font-size: 10px;
+
+}
+.boxx p{
+    color: white;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-transform: capitalize; */
+    opacity: 0.6;
+    font-size: 10px;
+}
+.btn2{
+    width: 100%;
+    /* display: flex;
+    align-items: center; */
+}
+.btn2 button{
+    background-color: #203957;
+    border-radius: 4px;
+    width: 100%;
+    height: 30px;
+    border: none;
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    font-size: 10px;
+    color: #ffa800;
+}
+.a{
+    display: flex;
+    justify-content: center;
+}
+.a a{
+    color: #ffa800;
+}
+::placeholder{
+    color: #fff;
+}
+
